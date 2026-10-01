@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Esto le dice al navegador que el texto usara letras y caracteres especiales -->
+  <meta charset="UTF-8">
+  
+  <!-- El titulo que se ve arriba en la pestana de la pagina -->
+  <title>Semaforo Triage Urgencias</title>
+</head>
+<body>
+
+  <!-- Titulo principal de la pagina, en letra azul y grande -->
+  <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 200%; color: rgb(19, 61, 175);">
+    Semaforo 
+    <!-- La palabra 'Triage' la hacemos aun mas grande para resaltar -->
+    <span style="font-size: 250%;">Triage</span> 
+    urgencias 
+  </p>
+
+  <!-- Subtitulo descriptivo con un estilo de letra mas cursiva y color azul subido-->
+  <p style="font-family: 'Brush Script MT', cursive; font-size: 170%; color: rgb(84, 118, 214);">
+    Medicion para medicos
+  </p>
+
+  <!-- Inicio de la tabla informativa -->
+  <table>
+    
+    <!-- Encabezado de la tabla los nombres de las columnas en fondo azul -->
+    <tr>
+     <!--Color de celda Azul para que se distinca el subtitulo-->
+      <th style="background-color: rgb(94, 157, 209);">Tipo de Atencion</th>
+      <th style="background-color: rgb(94, 157, 209);">Area de Atencion</th>
+      <th style="background-color: rgb(94, 157, 209);">Tiempo de espera</th>
+    </tr>
+
+    <!-- Rojo -->
+    <tr>
+     <!--Estilo de letra "Haettenschweiler" para darle diseño y en color rojo-->
+      <td style="font-family:Haettenschweiler; color: rgb(185, 30, 30);">Reanimacion</td>
+     <!--Estilo de letra "Georgia" para darle diseño y en color rojo Bajo-->
+      <td style="font-family:Georgia; color: rgb(230, 75, 75);">Area de reanimacion</td>
+     <!--Sin estilo de letra y en color rojo suave-->
+      <td style="color: rgb(241, 140, 140);">Inmediato hasta 3 min</td>
+    </tr>
+
+    <!-- Naranja -->
+    <tr>
+      <td style="font-family:Haettenschweiler; color: rgb(255, 123, 0);">Emergencias</td>
+      <td style="font-family:Georgia; color: rgb(245, 144, 50);">Area de reanimacion</td>
+      <td style="color: rgb(241, 160, 83);">Inmediato hasta 10 min</td>
+    </tr>
+
+    <!-- Amarillo -->
+    <tr>
+      <td style="font-family:Haettenschweiler; color: yellow;">Urgencia</td>
+      <td style="font-family:Georgia; color: rgb(243, 243, 96);">Consultoria de primer contacto</td>
+      <td style="color: rgb(255, 255, 148);">Hasta 30 min</td>
+    </tr>
+
+    <!-- Verde -->
+    <tr>
+      <td style="font-family:Haettenschweiler; color: green;">Urgencia Menor</td>
+      <td style="font-family:Georgia; color: rgb(43, 161, 43);">Consultorio de Primer contacto o UMF</td>
+      <td style="color: rgb(132, 240, 132);">Hasta 120 min</td>
+    </tr>
+
+    <!-- Azul -->
+    <tr>
+      <td style="font-family:Haettenschweiler; color: rgb(30, 30, 250);">Sin Urgencia</td>
+      <td style="font-family:Georgia; color: rgb(80, 153, 221);">Consultorio de pimer contacto o UMF</td>
+      <td style="color: rgb(131, 175, 241);">Hasta 180 min</td>
+    </tr>
+    
+  </table>
+
+</body>
+</html>
